@@ -33,7 +33,7 @@ Our AI-powered system analyzes four critical behavioral metrics:
 - 95%+ accuracy in fraud detection
 - Lightweight model optimized for mobile devices
 
-### 🎨 **Modern Gen Z UI/UX**
+### 🎨 **Modern UI/UX**
 - **Neon-themed dark interface** with cyberpunk aesthetics
 - **Dynamic animations** and glowing effects
 - **Responsive design** with smooth transitions
