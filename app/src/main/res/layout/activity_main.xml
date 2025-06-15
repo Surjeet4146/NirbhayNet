@@ -1,1 +1,177 @@
-a
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Animated Header -->
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ðŸ” NirbhayNet"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"
+            android:shadowColor="#FF00FF"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="15" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI-Powered Fraud Detection"
+            android:textSize="14sp"
+            android:textColor="#00FFFF"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:alpha="0.8" />
+
+        <!-- Input Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ðŸ“Š Behavioral Metrics"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:shadowColor="#00FFFF"
+            android:shadowRadius="8" />
+
+        <!-- Enhanced Input Fields -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <EditText
+                android:id="@+id/typing_speed_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="âŒ¨ï¸ Typing Speed (chars/min)"
+                android:inputType="numberDecimal"
+                android:background="@drawable/neon_input_field"
+                android:textColor="#FFFFFF"
+                android:hintTextColor="#80FFFFFF"
+                android:padding="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <EditText
+                android:id="@+id/swipe_speed_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ðŸ‘† Swipe Speed (px/sec)"
+                android:inputType="numberDecimal"
+                android:background="@drawable/neon_input_field"
+                android:textColor="#FFFFFF"
+                android:hintTextColor="#80FFFFFF"
+                android:padding="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <EditText
+                android:id="@+id/tap_pressure_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ðŸ“± Tap Pressure (0.0-1.0)"
+                android:inputType="numberDecimal"
+                android:background="@drawable/neon_input_field"
+                android:textColor="#FFFFFF"
+                android:hintTextColor="#80FFFFFF"
+                android:padding="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <EditText
+                android:id="@+id/device_angle_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ðŸ“ Device Angle (degrees)"
+                android:inputType="numberDecimal"
+                android:background="@drawable/neon_input_field"
+                android:textColor="#FFFFFF"
+                android:hintTextColor="#80FFFFFF"
+                android:padding="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Enhanced Predict Button -->
+        <Button
+            android:id="@+id/predict_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ðŸš€ ANALYZE BEHAVIOR"
+            android:background="@drawable/neon_button_gradient"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:elevation="8dp" />
+
+        <!-- Result Section -->
+        <LinearLayout
+            android:id="@+id/result_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/result_background"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ðŸ” Analysis Result"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/result_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ready for analysis..."
+                android:textSize="18sp"
+                android:textColor="#00FFFF"
+                android:gravity="center"
+                android:shadowColor="#FF00FF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="10"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Powered by TensorFlow Lite â€¢ Canara Bank Hackathon 2025"
+            android:textSize="12sp"
+            android:textColor="#80FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
