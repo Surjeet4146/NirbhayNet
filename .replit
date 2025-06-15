@@ -1,0 +1,4 @@
+entrypoint = "app/src/main/AndroidManifest.xml"
+
+[nix]
+channel = "stable-22_11"
