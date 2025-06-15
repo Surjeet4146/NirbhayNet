@@ -365,8 +365,8 @@ Risk Score: ~0.75-0.95
 - 📱 **User Testing**: Usability testing and user experience validation
 
 ### **Development Breakdown**
-- **Core Development (90%)**: AI model, Android app, technical implementation, architecture
-- **UI/UX & Testing (10%)**: Design suggestions, testing, user experience feedback
+- **Core Development**: AI model, Android app, technical implementation, architecture
+- **UI/UX & Testing**: Design suggestions, testing, user experience feedback
 
 ### **Technologies Implemented**
 - **TensorFlow Lite**: AI model deployment and mobile optimization
