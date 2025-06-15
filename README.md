@@ -343,19 +343,37 @@ Risk Score: ~0.75-0.95
 
 ---
 
-## 👥 Team & Credits
+## 👥 Team & Contributions
 
-### **Development Team**
-- **AI/ML Engineer**: Neural network design and training
-- **Android Developer**: Mobile app development and optimization  
-- **UI/UX Designer**: Modern interface and user experience
-- **Security Consultant**: Privacy and security implementation
+### **Development Team Structure**
 
-### **Technologies Used**
-- **TensorFlow Lite**: AI model deployment
-- **Android SDK**: Mobile application framework
-- **Material Design**: UI component library
-- **Gradle**: Build automation system
+#### **Lead Developer & AI Architect**
+**Responsible for:**
+- 🧠 **AI/ML Model Design**: Custom neural network architecture and training
+- 📱 **Android Development**: Complete mobile application development
+- ⚙️ **Technical Implementation**: TensorFlow Lite integration and optimization
+- 🔧 **System Architecture**: End-to-end solution design and development
+- 🚀 **Performance Optimization**: Model deployment and mobile optimization
+- 📊 **Data Processing**: StandardScaler implementation and preprocessing pipeline
+- 🔒 **Security Implementation**: Privacy-first architecture and local processing
+- 📋 **Project Management**: Technical documentation and codebase management
+
+#### **UI/UX Collaborator - Reshma Nawale**
+**Contributed to:**
+- 🎨 **User Experience Design**: UI/UX suggestions and design feedback
+- 🧪 **Quality Assurance**: Application testing and bug identification
+- 📱 **User Testing**: Usability testing and user experience validation
+
+### **Development Breakdown**
+- **Core Development (90%)**: AI model, Android app, technical implementation, architecture
+- **UI/UX & Testing (10%)**: Design suggestions, testing, user experience feedback
+
+### **Technologies Implemented**
+- **TensorFlow Lite**: AI model deployment and mobile optimization
+- **Android SDK**: Complete mobile application framework
+- **Java**: Application logic and TensorFlow Lite integration
+- **XML**: UI layouts and drawable resources
+- **Gradle**: Build automation and dependency management
 
 ---
 
@@ -389,6 +407,7 @@ For technical questions or demonstrations during the hackathon evaluation, pleas
 
 Special thanks to:
 - **Canara Bank** for organizing the Suraksha Hackathon 2025
+- **Reshma Nawale** for UI/UX contributions and testing support
 - **TensorFlow Team** for the excellent Lite framework
 - **Android Developer Community** for comprehensive documentation
 - **Open Source Contributors** for inspiration and resources
